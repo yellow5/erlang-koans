@@ -29,6 +29,29 @@ cheat_sheet() ->
         {if_you_want_to_make_a_lisp_interpreter_do_not_go_alone_take_this, ["(=", "true", "my-answer)"]},
         {joining_a_list_of_strings, "Oxford,Comma"}
       ]},
+    {about_lists, [
+        {lists_are_not_homogenious, 1},
+        {we_can_add, [mango, orange]},
+        {we_can_also_take_away, apple},
+        {lists_have_heads, apple},
+        {lists_also_have_tails, [banana, mango]},
+        {constructing_with_cons, [apple, banana, mango, pear]},
+        {length_is_as_simple_as_it_seems, 3},
+        {lists_of_tuples_can_be_found_by_key, pasta}
+      ]},
+    {about_pattern_matching, [
+        {what_looks_like_assignment_might_not_be, apple},
+        {assignment_with_a_tuple, banana},
+        {branching_on_patterns, apple},
+        {sometimes_we_do_not_need_to_know_everything, apple},
+        {and_sometimes_we_dont_need_to_match_anything, anything},
+        {we_can_find_patterns_in_arguments, bar}
+      ]},
+    {about_guard_clauses, [
+        {truthfulness_is_necessary_for_guards, true},
+        {there_exists_a_shorthand_for_and, 1},
+        {there_also_exists_a_shorthand_for_or, 5}
+      ]},
     {about_binaries, [
         {binaries_of_strings, "What am I, really?"},
         {and_also_strings_of_binaries, <<"What am I, really?">>},
@@ -45,29 +68,6 @@ cheat_sheet() ->
         {this_makes_applying_bitwise_operations_a_breeze, 2#01010},
         {do_the_binary_shuffle, 2#101000000},
         {now_to_the_right, 2#0101}
-      ]},
-    {about_pattern_matching, [
-        {what_looks_like_assignment_might_not_be, apple},
-        {assignment_with_a_tuple, banana},
-        {branching_on_patterns, apple},
-        {sometimes_we_do_not_need_to_know_everything, apple},
-        {and_sometimes_we_dont_need_to_match_anything, anything},
-        {we_can_find_patterns_in_arguments, bar}
-      ]},
-    {about_guard_clauses, [
-        {truthfulness_is_necessary_for_guards, true},
-        {there_exists_a_shorthand_for_and, 1},
-        {there_also_exists_a_shorthand_for_or, 5}
-      ]},
-    {about_lists, [
-        {lists_are_not_homogenious, 1},
-        {we_can_add, [mango, orange]},
-        {we_can_also_take_away, apple},
-        {lists_have_heads, apple},
-        {lists_also_have_tails, [banana, mango]},
-        {constructing_with_cons, [apple, banana, mango, pear]},
-        {length_is_as_simple_as_it_seems, 3},
-        {lists_of_tuples_can_be_found_by_key, pasta}
       ]},
     {about_list_comprehensions, [
         {representing_a_list, [1, 2, 3]},
