@@ -52,6 +52,11 @@ cheat_sheet() ->
         {there_exists_a_shorthand_for_and, 1},
         {there_also_exists_a_shorthand_for_or, 5}
       ]},
+    {about_processes, [
+        {writing_messages_to_yourself, "Hello Self!"},
+        {writing_messages_to_your_friends, ping},
+        {keeping_an_eye_on_your_friends, "Goodbye!"}
+      ]},
     {about_binaries, [
         {binaries_of_strings, "What am I, really?"},
         {and_also_strings_of_binaries, <<"What am I, really?">>},
@@ -90,11 +95,6 @@ cheat_sheet() ->
         {filter_the_appropriate_values, [2, 4]},
         {merging_two_dicts, [first_value, second_value]},
         {function_passed_to_a_function, fun(List) -> lists:reverse(List) end}
-      ]},
-    {about_processes, [
-        {writing_messages_to_yourself, "Hello Self!"},
-        {writing_messages_to_your_friends, ping},
-        {keeping_an_eye_on_your_friends, "Goodbye!"}
       ]}
     ].
 
