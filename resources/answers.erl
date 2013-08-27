@@ -57,12 +57,6 @@ cheat_sheet() ->
         {writing_messages_to_your_friends, ping},
         {keeping_an_eye_on_your_friends, "Goodbye!"}
       ]},
-    {about_binaries, [
-        {binaries_of_strings, "What am I, really?"},
-        {and_also_strings_of_binaries, <<"What am I, really?">>},
-        {the_first_byte_is_a_byte___right, 98},
-        {then_what_is_the_last, 121}
-      ]},
     {about_integers, [
         {arithmetic_is_easily_applied, 5},
         {remember_the_remainder, 1},
@@ -73,11 +67,6 @@ cheat_sheet() ->
         {this_makes_applying_bitwise_operations_a_breeze, 2#01010},
         {do_the_binary_shuffle, 2#101000000},
         {now_to_the_right, 2#0101}
-      ]},
-    {about_list_comprehensions, [
-        {representing_a_list, [1, 2, 3]},
-        {applying_a_function, [2, 4, 6]},
-        {applying_a_filter, [2]}
       ]},
     {about_dicts, [
         {dictionaries_give_the_definition_of_a_key, value},
@@ -95,6 +84,17 @@ cheat_sheet() ->
         {filter_the_appropriate_values, [2, 4]},
         {merging_two_dicts, [first_value, second_value]},
         {function_passed_to_a_function, fun(List) -> lists:reverse(List) end}
+      ]},
+    {about_list_comprehensions, [
+        {representing_a_list, [1, 2, 3]},
+        {applying_a_function, [2, 4, 6]},
+        {applying_a_filter, [2]}
+      ]},
+    {about_binaries, [
+        {binaries_of_strings, "What am I, really?"},
+        {and_also_strings_of_binaries, <<"What am I, really?">>},
+        {the_first_byte_is_a_byte___right, 98},
+        {then_what_is_the_last, 121}
       ]}
     ].
 
